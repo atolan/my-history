@@ -1,0 +1,16 @@
+[package]
+name = "zoolana"
+version = "0.1.0"
+edition = "2018"
+license = "MIT"
+publish = false
+
+[features]
+test-bpf = []
+no-entrypoint = []
+
+[dependencies]
+solana-program = "1.4.6"
+
+[lib]
+crate-type = ["cdylib"]
